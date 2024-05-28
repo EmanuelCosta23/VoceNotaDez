@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": false,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "jsx": "react",
+    "skipLibCheck": true,
+    // "typeRoots": ["./node_modules/@types"],
+    "moduleResolution": "NodeNext",
+    "typeRoots": ["node_modules/@types", "./vendor-types", "@adminjs/design-system/vendor-types"],
+    "paths": {
+      "react": ["node_modules/@types/react"],
+      "mocha": ["node_modules/@types/mocha"]
+    },
+    "baseUrl": ".",
+  }
+}
